@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi Portafolio Gamer</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="CSS/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -13,6 +14,9 @@
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#favoritos">Favoritos</a></li>
+        <li><a href="#video">Gameplay</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
@@ -36,9 +40,60 @@
       <p>Diseño interactivo basado en su evolución con animaciones y contenido dinámico.</p>
     </div>
   </section>
+    <section id="favoritos" class="favoritos">
+    <h2>Videojuegos de aventura</h2>
+    <div class="galeria">
+      <div class="juego">
+        <img src="IMG/Zelda.jpeg" alt="The Legend of Zelda">
+        <p>The Legend of Zelda</p>
+      </div>
+      <div class="juego">
+        <img src="IMG/Gow.jpeg" alt="God of War">
+        <p>God of War</p>
+      </div>
+      <div class="juego">
+        <img src="IMG/Uncharted.jpeg" alt="Uncharted">
+        <p>Uncharted</p>
+      </div>
+    </div>
+  </section>
 
+  <section id="video" class="video">
+    <h2>Gameplay destacado</h2>
+    <div class="video-trailer">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/-pypgiZ-PfI?si=jAjDn-9fGRWDjMxf" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="habilidades" class="habilidades">
+    <h2>Mis habilidades</h2>
+    <div class="skills">
+      <div class="skill">
+        <p>HTML</p>
+        <div class="barra"><div class="nivel html"></div></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="barra"><div class="nivel css"></div></div>
+      </div>
+      <div class="skill">
+        <p>Diseño UI</p>
+        <div class="barra"><div class="nivel ui"></div></div>
+      </div>
+      <div class="skill">
+        <p>Creatividad Gamer</p>
+        <div class="barra"><div class="nivel gamer"></div></div>
+      </div>
+    </div>
+  </section>
   <footer id="contacto">
     <h2>Contacto</h2>
+    <form class="formulario">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
     <p>mundogamer@gmail.com</p>
     <p>Sígueme en mis redes sociales para más contenido.</p>
   </footer>

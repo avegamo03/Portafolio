@@ -1,0 +1,207 @@
+header {
+  background-color: var(--color-dark);
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--color-light);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--color-accent);
+}
+
+.hero {
+  background-color: var(--color-darker);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  color: var(--color-accent);
+  border-bottom: 4px solid var(--color-accent);
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--color-light);
+}
+
+.sobre-mi,
+.proyectos {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.proyecto {
+  background-color: var(--color-card);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.proyecto img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.favoritos {
+  padding: 60px 20px;
+  background-color: var(--color-dark);
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.favoritos h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--color-accent);
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.juego {
+  width: 200px;
+}
+
+.juego img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--color-accent);
+  transition: transform 0.3s;
+}
+
+.juego img:hover {
+  transform: scale(1.05);
+}
+
+.juego p {
+  margin-top: 10px;
+  color: var(--color-light);
+}
+
+.video {
+  margin-top: 40px;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: var(--color-dark);
+  border-radius: 10px;
+}
+
+.video-trailer iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border-radius: 10px;
+  border: none;
+}
+
+.habilidades {
+  padding: 60px 20px;
+  background-color: var(--color-dark);
+  color: var(--color-accent);
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--color-light);
+}
+
+.barra {
+  background-color: var(--color-card);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.nivel {
+  height: 100%;
+  background-color: var(--color-accent);
+  transition: width 0.5s ease-in-out;
+}
+
+.html { width: 90%; }
+.css { width: 80%; }
+.ui { width: 75%; }
+.gamer { width: 95%; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 30px auto;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color-card);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.formulario button {
+  padding: 10px;
+  background-color: var(--color-accent);
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #e67e00;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+  color: #aaa;
+}

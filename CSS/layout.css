@@ -1,0 +1,36 @@
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-light);
+  line-height: 1.6;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .video-trailer iframe {
+    height: 250px;
+  }
+}
